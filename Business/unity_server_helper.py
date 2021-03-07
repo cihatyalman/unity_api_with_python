@@ -11,8 +11,7 @@ class UnityServerHelper:
 
     @classmethod
     def __db_connect(cls,server_info:ServerInfo):
-        con = pymysql.connect(host=server_info.host,user=server_info.username,
-        passwd=server_info.password,db=server_info.database)
+        con = pymysql.connect(host=server_info.host,user=server_info.username,passwd=server_info.password,db=server_info.database)
         return con
 
     @classmethod
