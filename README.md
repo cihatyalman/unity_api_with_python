@@ -4,8 +4,6 @@ Unity'nin Python Web API ile nasıl iletişim kurduğunu gösterir.
 ### Kullanılan kütüphaneler:
 - flask
 - pymysql
-
-#
 #
 Her hangi bir veritabanına bağlanarak, veritabanındaki bilgileri bize sunan ve veritabanında değişiklik yapmamıza olanak sağlayan bir web api örneklemesi yapılmıştır.
 
